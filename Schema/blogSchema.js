@@ -17,6 +17,10 @@ const blogSchema = new mongoose.Schema({
     author:{
         type:String,
         default:"jozzycodes"
+    },
+    slug:{
+        type:String,
+        required:true
     }
 }, {timestamps:true})
 
