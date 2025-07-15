@@ -21,7 +21,12 @@ const blogSchema = new mongoose.Schema({
     slug:{
         type:String,
         required:true
-    }
+    },
+    sections: [{
+    subheading: { type: String, required: true },
+    items: { type: [String], required: true }
+  }]
+
 }, {timestamps:true})
 
 module.exports = mongoose.model('blog',blogSchema )
