@@ -10,8 +10,8 @@ const blogSchema = new mongoose.Schema({
     description:{
         type:String,
         required:true,
-        minLength:[20,'description must be atleast 20 charcacters'],
-        maxLength:[500, 'description must not be more than 20 characters'],
+        minLength:[200,'description must be atleast 200 charcacters'],
+        maxLength:[1000, 'description must not be more than 1000 characters'],
         trim:true
     },
     author:{

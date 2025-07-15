@@ -8,6 +8,7 @@ const app = express();
 //middle ware
 app.use(cors())
 app.use(express.json());
+app.use('/', require('./Routes/sitemap'))
 
 //route middleware
 app.use('/blog', require('./Routes/blogRoute'));
