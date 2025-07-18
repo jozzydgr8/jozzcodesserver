@@ -14,6 +14,7 @@ const createBlog = async(req,res)=>{
         const blog = await Blog.create({title:title, description:description, slug:slug, sections:sections});
         res.status(200).json(blog)
     }catch(error){
+        console.log(error.message,'error.message')
         res.status(400).json({error:error})
     }
 } 

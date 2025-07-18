@@ -4,14 +4,14 @@ const blogSchema = new mongoose.Schema({
     title:{
         type:String,
         required:true,
-        minLength:[5, 'title must be atleast 5 characters'],
-        maxLength:[60, 'title cannot be more than 60 characters']
+        // minLength:[5, 'title must be atleast 5 characters'],
+        // maxLength:[60, 'title cannot be more than 60 characters']
     },
     description:{
         type:String,
         required:true,
-        minLength:[200,'description must be atleast 200 charcacters'],
-        maxLength:[1000, 'description must not be more than 1000 characters'],
+        // minLength:[200,'description must be atleast 200 charcacters'],
+        // maxLength:[1000, 'description must not be more than 1000 characters'],
         trim:true
     },
     author:{
@@ -23,8 +23,8 @@ const blogSchema = new mongoose.Schema({
         required:true
     },
     sections: [{
-    subheading: { type: String, required: true },
-    items: { type: [String], required: true }
+    subject: { type: String, required: true },
+    features: { type: [String], required: true }
   }]
 
 }, {timestamps:true})
