@@ -14,11 +14,17 @@ router.get('/sitemap.xml', async (req, res) => {
             "/affordable-website-design-lagos",
             '/website-developer-in-lekki',
             '/website-developer-in-ikeja',
+            '/website-developer-near-me',
+            '/website-for-your-business/starter',
+            '/website-for-your-business/premium',
             '/blog',
             '/gb',
             '/gb/pricing',
             '/gb/portfolio',
             '/gb/blog',
+            '/gb/website-developer-near-me',
+            '/gb/website-for-your-business/starter',
+            '/gb/website-for-your-business/premium',
         ];
 
         // Fetch blog slugs
