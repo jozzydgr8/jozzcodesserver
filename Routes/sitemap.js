@@ -11,7 +11,7 @@ router.get('/sitemap.xml', async (req, res) => {
             '/portfolio',
             "/website-developer-in-lagos",
             "/website-developer-in-nigeria",
-            "/affordable-website-design-lagos",
+            "/premium-website-design",
             '/website-developer-in-lekki',
             '/website-developer-in-ikeja',
             '/website-developer-near-me',
