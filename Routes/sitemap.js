@@ -7,8 +7,6 @@ router.get('/sitemap.xml', async (req, res) => {
 
         const staticPaths = [
             '/',
-            '/pricing',
-            '/portfolio',
             "/website-developer-in-lagos",
             "/website-developer-in-nigeria",
             "/premium-website-design",
@@ -19,8 +17,6 @@ router.get('/sitemap.xml', async (req, res) => {
             '/website-for-your-business/premium',
             '/blog',
             '/gb',
-            '/gb/pricing',
-            '/gb/portfolio',
             '/gb/blog',
             '/gb/website-developer-near-me',
             '/gb/website-for-your-business/starter',
