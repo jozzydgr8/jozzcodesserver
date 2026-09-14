@@ -7,23 +7,12 @@ router.get('/sitemap.xml', async (req, res) => {
 
         const staticPaths = [
             '/',
-            "/website-developer-in-lagos",
-            "/website-developer-in-nigeria",
-            "/premium-website-design",
-            '/website-developer-in-lekki',
-            '/website-developer-in-ikeja',
-            '/website-developer-near-me',
-            '/website-for-your-business',
-            '/website-for-your-business/starter',
-            '/website-for-your-business/premium',
             '/blog',
             '/portfolio',
             '/gb',
             '/gb/blog',
             '/gb/portfolio',
-            '/gb/website-developer-near-me',
-            '/gb/website-for-your-business/starter',
-            '/gb/website-for-your-business/premium',
+      
         ];
 
         // Fetch blog slugs
